@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.PacientesReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.ListadoPacientes1 = new ProyectoSistemaLaboratorioClinico.ListadoPacientes();
+            //this.ListadoPacientes1 = new ProyectoSistemaLaboratorioClinico.ListadoPacientes();
             this.SuspendLayout();
             // 
             // PacientesReportViewer
@@ -40,7 +40,7 @@
             this.PacientesReportViewer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PacientesReportViewer.Location = new System.Drawing.Point(0, 0);
             this.PacientesReportViewer.Name = "PacientesReportViewer";
-            this.PacientesReportViewer.ReportSource = this.ListadoPacientes1;
+           // this.PacientesReportViewer.ReportSource = this.ListadoPacientes1;
             this.PacientesReportViewer.Size = new System.Drawing.Size(800, 450);
             this.PacientesReportViewer.TabIndex = 0;
             // 
@@ -60,6 +60,6 @@
         #endregion
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer PacientesReportViewer;
-        private ListadoPacientes ListadoPacientes1;
+       // private ListadoPacientes ListadoPacientes1;
     }
 }

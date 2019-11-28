@@ -23,6 +23,7 @@ namespace ProyectoSistemaLaboratorioClinico.UI.Registros
             SeguroVidatextBox.Text = string.Empty;
             CedulamaskedTextBox.Text = string.Empty;
             BalancetextBox.Text = 0.ToString();
+            CelularmaskedTextBox.Text = string.Empty;
             TelefonomaskedTextBox.Text = string.Empty;
             CedulamaskedTextBox.Text = string.Empty;
             EmailtextBox.Text = string.Empty;
@@ -39,7 +40,7 @@ namespace ProyectoSistemaLaboratorioClinico.UI.Registros
             paciente.Telefono = TelefonomaskedTextBox.Text;
             paciente.Celular = CelularmaskedTextBox.Text;            
             paciente.SeguroDeVida = SeguroVidatextBox.Text;
-          paciente.Balance = Convert.ToDecimal(BalancetextBox.Text);
+            paciente.Balance = Convert.ToDecimal(BalancetextBox.Text);
             paciente.Fecha = FechadateTimePicker.Value;
             
             return paciente;

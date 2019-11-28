@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.TipoAnalisisReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.ListadoTipoAnalisis1 = new ProyectoSistemaLaboratorioClinico.ListadoTipoAnalisis();
+            //this.ListadoTipoAnalisis1 = new ProyectoSistemaLaboratorioClinico.ListadoTipoAnalisis();
             this.SuspendLayout();
             // 
             // TipoAnalisisReportViewer
@@ -40,7 +40,7 @@
             this.TipoAnalisisReportViewer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TipoAnalisisReportViewer.Location = new System.Drawing.Point(0, 0);
             this.TipoAnalisisReportViewer.Name = "TipoAnalisisReportViewer";
-            this.TipoAnalisisReportViewer.ReportSource = this.ListadoTipoAnalisis1;
+          //  this.TipoAnalisisReportViewer.ReportSource = this.ListadoTipoAnalisis1;
             this.TipoAnalisisReportViewer.Size = new System.Drawing.Size(800, 450);
             this.TipoAnalisisReportViewer.TabIndex = 0;
             // 
@@ -60,6 +60,6 @@
         #endregion
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer TipoAnalisisReportViewer;
-        private ListadoTipoAnalisis ListadoTipoAnalisis1;
+       // private ListadoTipoAnalisis ListadoTipoAnalisis1;
     }
 }

@@ -60,6 +60,6 @@
         #endregion
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer UsuarioReportViewer;
-        private ListadoUsuarios ListadoUsuarios1;
+       //private ListadoUsuarios ListadoUsuarios1;
     }
 }
